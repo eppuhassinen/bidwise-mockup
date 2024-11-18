@@ -1,5 +1,6 @@
 
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 
 const MenuItem = ({ text, onClick }) => {
   const style = {
@@ -9,7 +10,7 @@ const MenuItem = ({ text, onClick }) => {
     padding: '10px',
     flex: 1,
   }
-
+  
   return (
     <div className='menu-button' onClick={onClick} style={style}>
       {text}
@@ -18,6 +19,7 @@ const MenuItem = ({ text, onClick }) => {
 }
 
 const Menu = () => {
+  const navigate = useNavigate()
   const menuStyle = {
     display: 'flex',
     flexDirection: 'row',
@@ -25,11 +27,11 @@ const Menu = () => {
 
   return (
     <div className='menu-block' style={menuStyle}>
-      <MenuItem text={'HOME'}/>
-      <MenuItem text={'BUY'}/>
-      <MenuItem text={'SELL'}/>
-      <MenuItem text={'ABOUT'}/>
-      <MenuItem text={'CONTACT'}/>
+      <MenuItem text={'HOME'} onClick={() => navigate('/')}/>
+      <MenuItem text={'BUY'} onClick={() => navigate('/buy')}/>
+      <MenuItem text={'SELL'} onClick={() => navigate('/sell')}/>
+      <MenuItem text={'ABOUT' } onClick={() => navigate('/about')}/>
+      <MenuItem text={'CONTACT'} onClick={() => navigate('/contact')}/>
     </div>
   )
 }
