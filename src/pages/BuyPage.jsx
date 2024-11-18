@@ -1,7 +1,14 @@
+
+
+import PortfolioList from './PortfolioList'
+
 const BuyPage = () => {
+
+
   return (
     <div>
-      <h1>Welcome to the Buy Page</h1>
+      <h1>Browse portfolios</h1>
+      <PortfolioList />
     </div>
   )
 }

@@ -1,0 +1,114 @@
+{
+  "portfolios": [
+    {
+      "id": 1,
+      "name": "NPL Portfolio 1",
+      "description": "Test NPL Portfolio 1",
+      "shortDescription": "Short description for NPL Portfolio 1",
+      "longDescription": "This is a longer description for NPL Portfolio 1, providing more details about the portfolio.",
+      "askPrice": 1000000,
+      "sellerName": "Seller 1",
+      "loans": [
+        {
+          "loanId": 101,
+          "amount": 100000,
+          "status": "default"
+        },
+        {
+          "loanId": 102,
+          "amount": 150000,
+          "status": "default"
+        }
+      ],
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "NPL Portfolio 2",
+      "description": "Test NPL Portfolio 2",
+      "shortDescription": "Short description for NPL Portfolio 2",
+      "longDescription": "This is a longer description for NPL Portfolio 2, providing more details about the portfolio.",
+      "askPrice": 2000000,
+      "sellerName": "Seller 2",
+      "loans": [
+        {
+          "loanId": 103,
+          "amount": 200000,
+          "status": "default"
+        },
+        {
+          "loanId": 104,
+          "amount": 250000,
+          "status": "default"
+        }
+      ],
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "name": "NPL Portfolio 3",
+      "description": "Test NPL Portfolio 3",
+      "shortDescription": "Short description for NPL Portfolio 3",
+      "longDescription": "This is a longer description for NPL Portfolio 3, providing more details about the portfolio.",
+      "askPrice": 3000000,
+      "sellerName": "Seller 3",
+      "loans": [
+        {
+          "loanId": 105,
+          "amount": 300000,
+          "status": "default"
+        },
+        {
+          "loanId": 106,
+          "amount": 350000,
+          "status": "default"
+        }
+      ],
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "NPL Portfolio 4",
+      "description": "Test NPL Portfolio 4",
+      "shortDescription": "Short description for NPL Portfolio 4",
+      "longDescription": "This is a longer description for NPL Portfolio 4, providing more details about the portfolio.",
+      "askPrice": 4000000,
+      "sellerName": "Seller 4",
+      "loans": [
+        {
+          "loanId": 107,
+          "amount": 400000,
+          "status": "default"
+        },
+        {
+          "loanId": 108,
+          "amount": 450000,
+          "status": "default"
+        }
+      ],
+      "rating": 2
+    },
+    {
+      "id": 5,
+      "name": "NPL Portfolio 5",
+      "description": "Test NPL Portfolio 5",
+      "shortDescription": "Short description for NPL Portfolio 5",
+      "longDescription": "This is a longer description for NPL Portfolio 5, providing more details about the portfolio.",
+      "askPrice": 5000000,
+      "sellerName": "Seller 5",
+      "loans": [
+        {
+          "loanId": 109,
+          "amount": 500000,
+          "status": "default"
+        },
+        {
+          "loanId": 110,
+          "amount": 550000,
+          "status": "default"
+        }
+      ],
+      "rating": 4
+    }
+  ]
+}

@@ -14,11 +14,12 @@ import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 
 function App() {
+  
 
   return (
     <>
+      <Header headerText={'BIDWISE, Faster, Simpler, Smarter NPL Trading.'}/>
       <Menu/>
-      <Header headerText={'BIDWISE'}/>
       <Routes>
         <Route path="/"         element={<HomePage/>    }> </Route>
         <Route path="/buy"      element={<BuyPage/>     }> </Route>
