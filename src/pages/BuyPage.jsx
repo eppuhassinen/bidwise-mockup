@@ -1,6 +1,6 @@
 
 
-import PortfolioList from './PortfolioList'
+import PortfolioList from '../components/PortfolioList'
 
 const BuyPage = () => {
 

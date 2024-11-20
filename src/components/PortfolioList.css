@@ -1,0 +1,31 @@
+.portfolio-item-button {
+  background-color: #ffffff; 
+  color: rgb(10, 10, 10);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.portfolio-item-button:hover {
+  background-color: #abadab; 
+}
+
+.portfolio-ask-price {
+  font-size: 30px;
+}
+
+.portfolio-item {
+  background-color: #fdf9ed;
+}
+
+.portfolio-description {
+  background-color: #ffffff;
+}
+
+.star {
+  color: #3b4161;
+}

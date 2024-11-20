@@ -2,113 +2,128 @@
   "portfolios": [
     {
       "id": 1,
-      "name": "NPL Portfolio 1",
-      "description": "Test NPL Portfolio 1",
-      "shortDescription": "Short description for NPL Portfolio 1",
-      "longDescription": "This is a longer description for NPL Portfolio 1, providing more details about the portfolio.",
+      "name": "Tech Innovators Fund",
+      "description": "A portfolio of non-performing loans from technology companies.",
+      "shortDescription": "Non-performing tech loans.",
+      "longDescription": "This portfolio includes non-performing loans from companies in the technology sector, offering potential for recovery through restructuring.",
       "askPrice": 1000000,
-      "sellerName": "Seller 1",
+      "sellerName": "Tech Ventures Inc.",
       "loans": [
         {
           "loanId": 101,
-          "amount": 100000,
-          "status": "default"
+          "amount": 400000,
+          "status": "non-performing",
+          "description": "Loan for startup capital that defaulted."
         },
         {
           "loanId": 102,
-          "amount": 150000,
-          "status": "default"
+          "amount": 600000,
+          "status": "non-performing",
+          "description": "Loan for research and development that defaulted."
         }
       ],
-      "rating": 4
+      "rating": 4,
+      "aiAnalysis": "The Tech Innovators Fund has a moderate risk profile with potential for recovery through restructuring. The technology sector's volatility and innovation cycles may impact recovery rates."
     },
     {
       "id": 2,
-      "name": "NPL Portfolio 2",
-      "description": "Test NPL Portfolio 2",
-      "shortDescription": "Short description for NPL Portfolio 2",
-      "longDescription": "This is a longer description for NPL Portfolio 2, providing more details about the portfolio.",
+      "name": "Green Energy Fund",
+      "description": "A portfolio of non-performing loans from renewable energy projects.",
+      "shortDescription": "Non-performing renewable energy loans.",
+      "longDescription": "This portfolio focuses on non-performing loans from companies and projects in the renewable energy sector, with potential for recovery through asset liquidation or restructuring.",
       "askPrice": 2000000,
-      "sellerName": "Seller 2",
+      "sellerName": "Eco Investments Ltd.",
       "loans": [
         {
           "loanId": 103,
-          "amount": 200000,
-          "status": "default"
+          "amount": 800000,
+          "status": "non-performing",
+          "description": "Loan for solar energy project that defaulted."
         },
         {
           "loanId": 104,
-          "amount": 250000,
-          "status": "default"
+          "amount": 1200000,
+          "status": "non-performing",
+          "description": "Loan for wind energy project that defaulted."
         }
       ],
-      "rating": 3
+      "rating": 3,
+      "aiAnalysis": "The Green Energy Fund has a higher risk due to the emerging nature of renewable energy projects. Recovery potential exists through asset liquidation or restructuring, but market conditions and regulatory changes could affect outcomes."
     },
     {
       "id": 3,
-      "name": "NPL Portfolio 3",
-      "description": "Test NPL Portfolio 3",
-      "shortDescription": "Short description for NPL Portfolio 3",
-      "longDescription": "This is a longer description for NPL Portfolio 3, providing more details about the portfolio.",
+      "name": "Healthcare Innovations Fund",
+      "description": "A portfolio of non-performing loans from healthcare companies.",
+      "shortDescription": "Non-performing healthcare loans.",
+      "longDescription": "This portfolio includes non-performing loans from companies in the healthcare sector, with potential for recovery through restructuring or asset liquidation.",
       "askPrice": 3000000,
-      "sellerName": "Seller 3",
+      "sellerName": "HealthTech Partners",
       "loans": [
         {
           "loanId": 105,
-          "amount": 300000,
-          "status": "default"
+          "amount": 1200000,
+          "status": "non-performing",
+          "description": "Loan for new drug development that defaulted."
         },
         {
           "loanId": 106,
-          "amount": 350000,
-          "status": "default"
+          "amount": 1800000,
+          "status": "non-performing",
+          "description": "Loan for medical device manufacturing that defaulted."
         }
       ],
-      "rating": 5
+      "rating": 5,
+      "aiAnalysis": "The Healthcare Innovations Fund has a high potential for recovery due to the essential nature of healthcare services. Restructuring and asset liquidation are viable options, with a strong likelihood of positive outcomes given the sector's stability."
     },
     {
       "id": 4,
-      "name": "NPL Portfolio 4",
-      "description": "Test NPL Portfolio 4",
-      "shortDescription": "Short description for NPL Portfolio 4",
-      "longDescription": "This is a longer description for NPL Portfolio 4, providing more details about the portfolio.",
+      "name": "Real Estate Growth Fund",
+      "description": "A portfolio of non-performing loans from real estate investments.",
+      "shortDescription": "Non-performing real estate loans.",
+      "longDescription": "This portfolio includes non-performing loans from real estate projects, with potential for recovery through asset liquidation or restructuring.",
       "askPrice": 4000000,
-      "sellerName": "Seller 4",
+      "sellerName": "Property Ventures LLC",
       "loans": [
         {
           "loanId": 107,
-          "amount": 400000,
-          "status": "default"
+          "amount": 1600000,
+          "status": "non-performing",
+          "description": "Loan for commercial property development that defaulted."
         },
         {
           "loanId": 108,
-          "amount": 450000,
-          "status": "default"
+          "amount": 2400000,
+          "status": "non-performing",
+          "description": "Loan for residential property development that defaulted."
         }
       ],
-      "rating": 2
+      "rating": 2,
+      "aiAnalysis": "The Real Estate Growth Fund carries significant risk due to the cyclical nature of the real estate market. Recovery potential is tied to market conditions and the ability to liquidate assets or restructure loans effectively."
     },
     {
       "id": 5,
-      "name": "NPL Portfolio 5",
-      "description": "Test NPL Portfolio 5",
-      "shortDescription": "Short description for NPL Portfolio 5",
-      "longDescription": "This is a longer description for NPL Portfolio 5, providing more details about the portfolio.",
+      "name": "Global Markets Fund",
+      "description": "A portfolio of non-performing loans from global market investments.",
+      "shortDescription": "Non-performing global market loans.",
+      "longDescription": "This portfolio includes non-performing loans from various global market investments, with potential for recovery through restructuring or asset liquidation.",
       "askPrice": 5000000,
-      "sellerName": "Seller 5",
+      "sellerName": "Global Investments Corp.",
       "loans": [
         {
           "loanId": 109,
-          "amount": 500000,
-          "status": "default"
+          "amount": 2000000,
+          "status": "non-performing",
+          "description": "Loan for international market expansion that defaulted."
         },
         {
           "loanId": 110,
-          "amount": 550000,
-          "status": "default"
+          "amount": 3000000,
+          "status": "non-performing",
+          "description": "Loan for global supply chain development that defaulted."
         }
       ],
-      "rating": 4
+      "rating": 4,
+      "aiAnalysis": "The Global Markets Fund has a diverse risk profile due to its exposure to various international markets. Recovery potential is influenced by global economic conditions, with opportunities for restructuring and asset liquidation."
     }
   ]
 }
